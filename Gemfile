@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '4.2.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -29,7 +29,8 @@ end
 gem 'pg'
 gem 'jquery-rails'
 gem 'rails_12factor', group: :production
-gem "cancan"
+gem 'cancan'
+gem 'rack', '1.6.4'
 
 
 # To use ActiveModel has_secure_password
